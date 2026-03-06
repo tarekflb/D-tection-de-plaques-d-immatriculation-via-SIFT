@@ -11,6 +11,7 @@ L’objectif est de comparer une image de plaque d’immatriculation avec un ens
 
 - Python  
 - OpenCV  
+
 - SIFT (détection de points clés)  
 - RANSAC (filtrage des correspondances)  
 - NumPy  
@@ -27,8 +28,21 @@ Le programme suit les étapes suivantes :
 5. Filtrage des correspondances avec le test de Lowe.
 6. Utilisation de **RANSAC** pour éliminer les correspondances erronées.
 7. Identification de la plaque la plus similaire.
-
 Le script compare les images de test avec la base de plaques et affiche la correspondance la plus probable.
+
+
+
+
+****Voici une simulation réelle d'un jeu de dataset d'une entreprise allemande, avec les vehecule de ses employés :****
+
+
+
+<img width="1130" height="1014" alt="Capture d&#39;écran 2026-03-06 231516" src="https://github.com/user-attachments/assets/46cd28f0-bed5-40cd-a523-541fa6f9bb89" />
+
+
+
+
+
 
 
 
